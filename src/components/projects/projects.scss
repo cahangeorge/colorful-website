@@ -1,0 +1,84 @@
+@import '../../global.scss';
+
+.projects {
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .project-1, .project-2-pc {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .box-img {
+            height: auto;
+        }
+
+        .box-p {
+
+            .box-p::first-letter {
+                font-size: 200%;
+            }
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .project-2 {
+        display: none;
+    }
+
+    @include mobile {
+        .project-1, .project-2 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .project-2-pc {
+            display: none;
+        }
+    }
+}
+
+
+/* --- icons style --- */
+.fab, .fas{
+    text-shadow: 2px 2px 5px black;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3-alt{
+    color: royalblue;
+}
+.fa-js-square{
+    color: gold;
+}
+.fa-bootstrap{
+    color: purple;
+}
+.fa-sass{
+    color: violet;
+}
+.fa-react{
+    color: cyan;
+}
+.fa-npm{
+    color: firebrick;
+}
+.fa-node{
+    color: forestgreen;
+}
+.fa-bars{
+    color: white;
+}

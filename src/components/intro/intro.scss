@@ -1,0 +1,11 @@
+@import '../../global.scss';
+
+.intro {
+    background-color: #fff;
+}
+
+#myElement {
+    color: $grey;
+    text-shadow: 2px 2px 5px $dark;
+    height: 15vh;
+}

@@ -1,0 +1,42 @@
+@import '../../global.scss';
+
+.wave-section{
+    background-image: linear-gradient(0deg, #3BCFD4, #FC9305);
+    width: 100%;
+    border-radius: 10% 10% 40% 40%;
+    box-shadow: 1px 1px 25px 1px grey;
+    margin: 50px 0 0 0;
+    padding: 5vh 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wave-icons-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.wave-icons-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* --- icons style --- */
+.fab, .fas{
+    text-shadow: 2px 2px 5px black;
+}
+.fa-shield-alt{
+    color: mediumblue;
+}
+.fa-mobile-alt{
+    color: crimson;
+}
+.fa-laptop{
+    color: olive;
+}
+.fa-file-code{
+    color: whitesmoke;
+}
