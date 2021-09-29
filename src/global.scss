@@ -1,0 +1,14 @@
+$light: #FFF;
+$dark: #262626;
+
+$mainFS: 20px;
+$mainFW: 300;
+
+$shadow: 0 .5rem 1rem rgba(black, .15);
+
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content
+    }
+}

@@ -24,6 +24,7 @@
             }
 
             .icons {
+                width: 100%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
@@ -52,33 +53,39 @@
 
 
 /* --- icons style --- */
-.fab, .fas{
-    text-shadow: 2px 2px 5px black;
-}
 .fa-html5{
     color: orangered;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-css3-alt{
     color: royalblue;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-js-square{
     color: gold;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-bootstrap{
     color: purple;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-sass{
     color: violet;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-react{
     color: cyan;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-npm{
     color: firebrick;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-node{
     color: forestgreen;
+    filter: drop-shadow(2px 2px 2px $dark);
 }
 .fa-bars{
     color: white;
+    filter: drop-shadow(2px 2px 2px $dark);
 }

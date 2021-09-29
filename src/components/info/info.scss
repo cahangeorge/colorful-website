@@ -10,33 +10,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.wave-icons-1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.wave-icons-2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-/* --- icons style --- */
-.fab, .fas{
-    text-shadow: 2px 2px 5px black;
-}
-.fa-shield-alt{
-    color: mediumblue;
-}
-.fa-mobile-alt{
-    color: crimson;
-}
-.fa-laptop{
-    color: olive;
-}
-.fa-file-code{
-    color: whitesmoke;
+    .wave-icons-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        .fa-laptop{
+            color: olive;
+            filter: drop-shadow(2px 2px 2px $dark);
+        }
+        .fa-file-code{
+            color: whitesmoke;
+            filter: drop-shadow(2px 2px 2px $dark);
+        }
+    }
+
+    .wave-icons-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        .fa-shield-alt{
+            color: mediumblue;
+            filter: drop-shadow(2px 2px 2px $dark);
+        }
+        .fa-mobile-alt{
+            color: crimson;
+            filter: drop-shadow(2px 2px 2px $dark);
+        }
+    }
 }

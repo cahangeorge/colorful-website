@@ -2,10 +2,15 @@
 
 .intro {
     background-color: #fff;
+    height: 100vh;
 }
 
 #myElement {
-    color: $grey;
+    color: grey;
     text-shadow: 2px 2px 5px $dark;
     height: 15vh;
+}
+
+#tsparticles {
+    height: 100vh;
 }

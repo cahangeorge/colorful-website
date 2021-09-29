@@ -6,7 +6,7 @@ body::-webkit-scrollbar{
     background-image: linear-gradient(180deg, #FC9305, #3BCFD4);
 }
 body::-webkit-scrollbar-thumb{
-    background-color: $grey;
+    background-color: grey;
     border-radius: 25px;
     box-shadow: 1px 1px 10px 1px $dark;
 }

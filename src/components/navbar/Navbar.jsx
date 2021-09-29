@@ -6,7 +6,7 @@ import Menu from './menu/Menu';
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={'navigation position-fixed shadow ' + (menuOpen && 'active')}>
-            <a href="" className='logo ms-4'>
+            <a href="/" className='logo ms-4'>
                 <img src={logo} alt="" width='75' height='75' />
             </a>
             <Menu className='nav' />
